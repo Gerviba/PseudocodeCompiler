@@ -225,8 +225,8 @@ public final class PSeudocodeRuntimeEnvironment {
 			System.out.println(" --input-file       Sets the input source as file");
 			System.out.println(" --input-base64     Sets the input source as Base64 code");
 			System.out.println(" --input-stdin      Sets the input source as standard input");
-			System.out.println(" --output-file      Sets the output source as standard input");
-			System.out.println(" --output-stdout    Sets the output source as standard input");
+			System.out.println(" --output-file      Sets the output source as file");
+			System.out.println(" --output-stdout    Sets the output source as standard output");
 			System.out.println(" ");
 			System.out.println("*1: Optional if `-s` or `-f` attached");
 			System.exit(0);
