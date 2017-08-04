@@ -1,0 +1,24 @@
+# @Debug OFF
+Program test
+    a := (10, 210, 213, 312, -1, -30, 230, 500, 0, 1001)
+    n := 10
+    
+	// Rendezés
+    Ciklus i := 1-től n-1-ig
+        min := i
+        Ciklus j := i + 1-től n-ig
+            Ha a[min] > a[j] akkor
+                min := j
+            elág. vége
+        Ciklus vége
+        
+        temp := a[min]
+        a[min] := a[i]
+        a[i] := temp
+    Ciklus vége
+    
+	// Kiírás
+    Ciklus i := 1-től n-ig
+        KI: a[i]
+    Ciklus vége
+Program vége
